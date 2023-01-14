@@ -35,9 +35,7 @@
                 <th>月額1,900円</th>
             </tr>
         </table>
-        <p>
-
-        </p>
+        <p></p>
         <table border="1">
             <tr>
                 <th colspan="2">セル1+2</th>
@@ -50,5 +48,36 @@
                 <th>セル6</th>
             </tr>
         </table>
+        <p></p>
+        <form action="example.php" method="post" name="contact-form">
+            <!-- ここにフォームの部品が入る -->
+            名前：<input type="text" placeholder="苗字 名前">
+            <p></p>
+            Mail：<input type="email" placeholder="メールアドレス">
+            <p></p>
+            <input type="radio" name="gender" value="男性">男性
+            <input type="radio" name="gender" value="女性" checked>女性
+            <input type="radio" name="gender" value="その他">その他
+            <p></p>
+            <input type="checkbox" name="color" value="赤" checked>赤
+            <input type="checkbox" name="color" value="青" >青
+            <input type="checkbox" name="color" value="黄" >黄
+            <input type="checkbox" name="color" value="緑" >緑
+            <p></p>
+            <input type="submit" value="送信する">
+            <p></p>
+            <input type="image" src="images/button.png" alt="送信する">
+            <p></p>
+            血液型
+            <select name="bloodtype">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="O">O</option>
+                <option value="AB">AB</option>
+                <option value="不明" selected>不明</option>
+            </select>
+            <p></p>
+            <textarea name="message" placeholder="メッセージを入力"></textarea>
+        </form>
     </body>
 </html>
