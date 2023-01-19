@@ -31,6 +31,8 @@ p{
     font-weight: bold;
     line-height: 1.7;
     text-align: justify;
+    border-width: thick;
+    border-style: solid;
 }
 div{
     background: #0bd;
@@ -39,4 +41,6 @@ div{
     margin-top: 30px;
     margin-left: 100px;
     padding: 40px;
+    border-width: 1px 4px 8px 12px;
+    border-style: solid;
 }
