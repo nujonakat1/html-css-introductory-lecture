@@ -34,6 +34,7 @@ p{
     /* border-width: thick; */
     border-width: 4px;
     border-style: solid;
+    border-color: tomato;
 }
 div{
     background: #0bd;
@@ -44,5 +45,6 @@ div{
     padding: 40px;
     /* border-width: 1px 4px 8px 12px; */
     border-width: 4px;
-    border-style: double dotted solid ridge;
+    border-style: solid;
+    border-color: tan #0bd tomato #000;
 }
