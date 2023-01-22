@@ -32,9 +32,7 @@ p{
     line-height: 1.7;
     text-align: justify;
     /* border-width: thick; */
-    border-width: 4px;
-    border-style: solid;
-    border-color: tomato;
+    border-bottom: 2px solid #0bd;
 }
 div{
     background: #0bd;
@@ -43,8 +41,14 @@ div{
     margin-top: 30px;
     margin-left: 100px;
     padding: 40px;
-    /* border-width: 1px 4px 8px 12px; */
-    border-width: 4px;
-    border-style: solid;
-    border-color: tan #0bd tomato #000;
+    border: 5px dotted tomato;
+}
+ul{
+    list-style-image: url(images/star.png);
+}
+ol{
+    list-style-position: outside;
+}
+li{
+    background-color: rgb(0, 221, 210);
 }
