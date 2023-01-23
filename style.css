@@ -25,7 +25,7 @@ h2{
 }
 
 p{
-    color: rgba(10, 130, 165, .5);
+    color: #999;
     font-size: 20px;
     font-family: "ヒラギノ丸ゴ Pro W4", "Hiragino Maru Gothic Pro", sans-serif;
     font-weight: bold;
@@ -33,6 +33,12 @@ p{
     text-align: justify;
     /* border-width: thick; */
     border-bottom: 2px solid #0bd;
+}
+.blue{
+    color: #0bd;
+}
+#orange{
+    color: #fa2;
 }
 div{
     background: #0bd;
